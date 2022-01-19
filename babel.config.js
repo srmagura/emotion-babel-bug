@@ -7,16 +7,6 @@ module.exports = function config(api, options) {
 
   return {
     presets: [],
-    plugins: [
-      [
-        require("@emotion/babel-plugin"),
-        {
-          cssPropOptimization: false,
-          sourceMap: false,
-          autoLabel: 'always',
-          labelFormat: '[filename]--[local]'
-        },
-      ]
-    ],
+    plugins: ["@emotion/babel-plugin"],
   };
 };
