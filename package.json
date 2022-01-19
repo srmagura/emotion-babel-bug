@@ -1,0 +1,24 @@
+{
+  "name": "emotion-babel-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paul-sachs/emotion-babel-bug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paul-sachs/emotion-babel-bug/issues"
+  },
+  "homepage": "https://github.com/paul-sachs/emotion-babel-bug#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.7",
+    "@emotion/babel-plugin": "^11.7.2"
+  }
+}
